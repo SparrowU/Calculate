@@ -41,8 +41,8 @@ namespace Calculate
         [TestMethod]
         public void TestMethod_pow3()
         {
-            int test_pw = calc.pow(3);
-            Assert.AreEqual(9, test_pw);
+            int test_pow = calc.pow(3);
+            Assert.AreEqual(9, test_pow);
         }
         [TestMethod]
         public void square_root_test1()
